@@ -1,55 +1,67 @@
-# Kuliah Pemrograman Web I — Latihan Mandiri: Website Biodata Mahasiswa
+# Website Biodata Mahasiswa
 
-Repository ini berisi tugas **Latihan Mandiri** mata kuliah **Pemrograman Web I**: membuat website biodata mahasiswa menggunakan HTML, CSS, dan JavaScript dasar.
+Repository ini dibuat untuk memenuhi tugas **Latihan Mandiri mata kuliah Pemrograman Web I** di Universitas Teknologi Bandung.
+
+Website ini berisi biodata mahasiswa yang dibuat menggunakan HTML, CSS, dan JavaScript dasar sesuai materi yang telah dipelajari selama perkuliahan.
 
 ## Biodata Mahasiswa
 
-| Keterangan | Detail |
-| --- | --- |
-| Nama | Sandhy Safarudin Nurdiansyah |
-| NIM | 23552011464 |
-| Program Studi | S1 Teknik Informatika |
-| Universitas | Universitas Teknologi Bandung |
-| Mata Kuliah | Pemrograman Web I |
-| Jadwal Kelas | Jumat, 19:40–21:40 WIB |
+| Keterangan    | Detail                        |
+| ------------- | ----------------------------- |
+| Nama          | Sandhy Safarudin Nurdiansyah  |
+| NIM           | 23552011464                   |
+| Program Studi | S1 Teknik Informatika         |
+| Universitas   | Universitas Teknologi Bandung |
+| Mata Kuliah   | Pemrograman Web I             |
 
-## Tentang Tugas
+## Website Apa Ini?
 
-Berdasarkan materi *Dasar Pengembangan Web* (bagian Latihan Mandiri), tugas ini meminta mahasiswa membuat website biodata pribadi yang menampilkan:
+Website ini dibuat untuk menerapkan dasar-dasar pengembangan web yang telah dipelajari. Informasi yang ditampilkan meliputi biodata pribadi, foto, hobi, dan riwayat pendidikan.
 
-- Nama, NIM, program studi, dan alamat
-- Foto dan daftar hobi
-- Tabel riwayat pendidikan
-- Halaman yang didesain menggunakan CSS
-- Tombol yang menampilkan pesan (interaksi JavaScript)
+Selain menampilkan informasi, website ini juga dilengkapi dengan tombol interaktif menggunakan JavaScript serta desain responsif agar tampilannya tetap nyaman digunakan melalui komputer maupun ponsel.
 
-**Tantangan tambahan:** tampilan harus tetap rapi pada layar ponsel dengan menerapkan *media query* (desain responsif).
+## Fitur Website
 
-## Kriteria Teknis
+- Menampilkan biodata mahasiswa.
+- Menampilkan foto dan daftar hobi.
+- Menampilkan riwayat pendidikan dalam bentuk tabel.
+- Menggunakan CSS untuk mengatur tampilan halaman.
+- Menyediakan tombol interaktif yang menampilkan pesan.
+- Menggunakan media query agar tampilan menyesuaikan ukuran layar.
 
-- Struktur halaman menggunakan HTML: elemen `head` dan `body`, heading, paragraf, tautan, gambar dengan atribut `alt`, daftar, tabel, dan form sederhana
-- Tampilan diatur dengan **CSS eksternal** yang dihubungkan melalui `<link rel="stylesheet">`, menerapkan *box model* (margin, padding, border) dan layout sederhana dengan flexbox
-- Interaksi dasar menggunakan **JavaScript eksternal**: mengambil elemen dengan `getElementById`, merespons klik dengan `addEventListener`, dan mengubah teks dengan `textContent`
-- Responsif dengan `@media (max-width: 600px)`
+## Yang Digunakan
 
-> Kode ditulis setara level materi dasar Pemrograman Web I — tanpa framework atau library tambahan.
+- **HTML5** untuk menyusun struktur halaman.
+- **CSS3** untuk mengatur tampilan dan tata letak.
+- **JavaScript** untuk menambahkan interaksi sederhana.
 
-## Struktur Proyek
+Website ini dibuat tanpa framework atau library tambahan agar tetap sesuai dengan materi dasar Pemrograman Web I.
 
-```
+## Struktur Folder
+
+```text
 .
-├── index.html        # Halaman utama biodata
+├── index.html
 ├── css/
-│   └── style.css     # Desain dan layout halaman
+│   └── style.css
 ├── js/
-│   └── script.js     # Interaksi tombol dan pesan
-└── images/           # Foto dan aset gambar
+│   └── script.js
+└── images/
+    └── (foto dan aset gambar)
 ```
 
-Struktur di atas mengikuti contoh pada materi perkuliahan. File website ditambahkan seiring pengerjaan tugas.
+## Preview Website
 
-## Teknologi
+Berikut tampilan website pada beberapa ukuran layar:
 
-- HTML5
-- CSS3
-- JavaScript (dasar / vanilla)
+### Desktop
+
+![Preview Desktop](images/preview-desktop.png)
+
+### Tablet
+
+![Preview Tablet](images/preview-tablet.png)
+
+### HP
+
+![Preview HP](images/preview-hp.png)
